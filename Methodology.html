@@ -3,94 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Methodology & Custom Tools | Xiro-0x</title>
+    <title>Methodology | Xiro-0x</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=JetBrains+Mono&display=swap');
-        body { font-family: 'Plus+Jakarta+Sans', sans-serif; background-color: #f8fafc; }
-        .mono { font-family: 'JetBrains Mono', monospace; }
-    </style>
 </head>
-<body class="bg-slate-50 text-slate-900">
-
-    <nav class="p-6 max-w-6xl mx-auto flex justify-between items-center">
-        <a href="index.html" class="text-blue-600 font-bold hover:underline flex items-center gap-2">
-            <i class="fa-solid fa-arrow-left"></i> Back to Portfolio
-        </a>
-        <span class="mono text-xs text-slate-400">/root/methodology</span>
+<body class="bg-slate-50">
+    <nav class="p-6 max-w-6xl mx-auto">
+        <a href="index.html" class="text-blue-600 font-bold hover:underline"><i class="fa-solid fa-arrow-left mr-2"></i> Back</a>
     </nav>
-
     <main class="max-w-4xl mx-auto px-4 py-12">
-        <header class="mb-16">
-            <h1 class="text-4xl font-extrabold mb-4 text-slate-950 tracking-tight">Hacking Methodology & Tools</h1>
-            <p class="text-slate-500 text-lg">My personal approach to securing the internet and building custom offensive security tools.</p>
-        </header>
-
-        <section class="mb-20">
-            <h2 class="text-xl font-bold mb-8 flex items-center gap-3 text-blue-600">
-                <i class="fa-solid fa-microscope"></i> My Hacking Workflow
-            </h2>
-            <div class="space-y-6">
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h3 class="font-bold text-slate-900 mb-2">01. Reconnaissance & Intel Gathering</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Explain here how you start your recon. Examples: Subdomain enumeration, httpx for alive hosts, gauging the attack surface.
-                    </p>
-                </div>
-
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h3 class="font-bold text-slate-900 mb-2">02. Vulnerability Analysis</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        What do you look for? Logic flaws, AI-specific prompt injections, IDORs, or API security issues.
-                    </p>
-                </div>
-
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h3 class="font-bold text-slate-900 mb-2">03. Exploitation & Reporting</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        How you confirm the bug and write a professional report to get that bounty!
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="text-xl font-bold mb-8 flex items-center gap-3 text-blue-600">
-                <i class="fa-solid fa-code"></i> Custom Tools & Scripts
-            </h2>
+        <h1 class="text-4xl font-extrabold mb-8">My Hacking Methodology</h1>
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+            <h3 class="text-blue-600 font-bold mb-4">01. Recon & Recon</h3>
+            <p class="text-slate-600 leading-relaxed mb-6 text-sm">Describe your recon tools here (Subfinder, httpx, gau...).</p>
             
-            <div class="grid grid-cols-1 gap-8">
-                <div class="bg-slate-950 text-white p-8 rounded-2xl shadow-xl relative overflow-hidden">
-                    <div class="absolute top-0 right-0 p-4 opacity-10">
-                        <i class="fa-solid fa-terminal text-6xl"></i>
-                    </div>
-                    
-                    <h3 class="text-xl font-bold mb-2 text-blue-400">MyIDORScanner (Draft)</h3>
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                        This is a placeholder for your first custom tool. Tell the world what it does and how to use it.
-                    </p>
-                    
-                    <div class="bg-black/40 p-4 rounded-lg border border-white/10 mb-6">
-                        <code class="mono text-xs text-green-400">
-                            # How to run:<br>
-                            python3 mytool.py -u https://target.com
-                        </code>
-                    </div>
-
-                    <a href="#" class="text-xs font-bold text-white bg-blue-600 px-4 py-2 rounded uppercase hover:bg-blue-500 transition">View on GitHub</a>
-                </div>
-                
-                <div class="border-2 border-dashed border-slate-200 p-8 rounded-2xl text-center text-slate-400">
-                    <p class="text-sm">Working on new tools... Follow me on GitHub for updates.</p>
-                </div>
-            </div>
-        </section>
+            <h3 class="text-blue-600 font-bold mb-4">02. Bug Hunting Logic</h3>
+            <p class="text-slate-600 leading-relaxed text-sm">How you hunt for IDORs and Logic Flaws.</p>
+        </div>
     </main>
-
-    <footer class="py-12 text-center text-slate-400 text-[10px] uppercase tracking-widest mono">
-        End of Transmission // Xiro-0x
-    </footer>
-
 </body>
 </html>
